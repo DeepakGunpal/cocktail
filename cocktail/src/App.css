@@ -1,0 +1,40 @@
+body{
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+.main_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main_container input{
+    padding: 5px;
+    width: 50%;
+}
+
+.header_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    gap: 3rem;
+}
+
+.cocktails_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cocktails_container h5{
+}
+
+.cocktail img{
+    width: 20%;
+
+}
+
